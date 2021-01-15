@@ -25,15 +25,14 @@ v1과 v2에 직각(perpendicular)인 벡터 a가 있다고 하자.
 이 때, a는 v1과 v2를 외적(cross product)하면 구해진다. ([참고 동영상](https://www.youtube.com/watch?v=eu6i7WJeinw))
 실제 계산식에서는 unit axis가 필요하므로 이것까지 적용한 식은 다음과 같다.
 $$
-\frac{\vec{v_1}\times\vec{v_2}}{|\vec{v_1}||\vec{v_2}|}
+\\frac{\\vec{v_1}\\times\\vec{v_2}}{|\\vec{v_1}||\\vec{v_2}|}
 $$
-$\\cos{\\theta}$
 
 ---
 
 축 A를 기준으로한 v1과 v2 사이의 각도는 다음의 식으로 구할 수 있다.
 $$
-\cos{\theta} =\frac{\vec{v_1}\dot{}\vec{v_2}}{ |\vec{v_1}|*|\vec{v_2}|}
+\\cos{\\theta} =\\frac{\\vec{v_1}\\dot{}\\vec{v_2}}{ |\\vec{v_1}|*|\\vec{v_2}|}
 $$
 
 ---
@@ -42,7 +41,7 @@ $$
 
 임의의 축을 기준으로 벡터를 돌리는 알고리즘은 **[Rodrigues' rotation formula](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)** 를 사용한다. 식은 다음과 같다.
 $$
-\vec{v_{rot}} = (\cos{\theta})\vec{v} + (\sin{\theta})(\vec{a}\times\vec{v})+(1-\cos{\theta})(\vec{a}\dot{}\vec{v})\vec{a}
+\\vec{v_{rot}} = (\\cos{\\theta})\\vec{v} + (\\sin{\\theta})(\\vec{a}\\times\\vec{v})+(1-\\cos{\\theta})(\\vec{a}\\dot{}\\vec{v})\\vec{a}
 $$
 앞에서 준비물은 전부 갖췄기 때문에 그냥 대입만 하면 알아서 회전된 벡터가 나온다.
 
