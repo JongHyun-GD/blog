@@ -7,7 +7,7 @@ categories:
 tags:
   - Ray-tracing 
 last_modified_at: 2021-01-15T08:06:00-05:00
-reading-time: 10
+use_math: true
 ---
 # Axis-Angle-Rotation (Rodrigues' rotation formula)
 
