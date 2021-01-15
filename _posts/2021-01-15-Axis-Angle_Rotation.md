@@ -31,9 +31,8 @@ $$
 ---
 
 축 A를 기준으로한 v1과 v2 사이의 각도는 다음의 식으로 구할 수 있다.
-$$
-\\cos{\\theta} =\\frac{\\vec{v_1}\\dot{}\\vec{v_2}}{ |\\vec{v_1}|*|\\vec{v_2}|}
-$$
+$\cos{\theta} =\frac{\vec{v_1}\dot{}\vec{v_2}}{ |\vec{v_1}|*|\vec{v_2}|}$
+$\\cos{\\theta} =\\frac{\\vec{v_1}\\dot{}\\vec{v_2}}{ |\\vec{v_1}|*|\\vec{v_2}|}$
 
 ---
 
