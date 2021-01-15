@@ -27,6 +27,7 @@ v1과 v2에 직각(perpendicular)인 벡터 a가 있다고 하자.
 $$
 \frac{\vec{v_1}\times\vec{v_2}}{|\vec{v_1}||\vec{v_2}|}
 $$
+$\\cos{\\theta}$
 
 ---
 
